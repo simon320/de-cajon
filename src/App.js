@@ -1,27 +1,11 @@
-import LOGO from "./assets/Sello1a.png";
+
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <>
-	<header>
-		<nav>
-			<a href="#">Inicio</a>
-			<a href="#">Productos</a>
-			<a href="#">Multimedia</a>
-			<a href="#">Contacto</a>
-			<a href="#">Acerca de..</a>
-		</nav>
-		<section className="textos-header">
-			<img src={LOGO} />
-			<h2>Instrumentos de percusión artesanales</h2>
-		</section>
-		{/* <div className="wave" style={height: '150px'; overflow: 'hidden';} >
-      <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-        <path d="M0.00,49.98 C250.27,158.38 363.71,-36.02 500.00,49.98 L500.00,150.00 L-1.41,151.47 Z" style="stroke: none; fill: #fff;">
-        </path>
-      </svg>
-    </div> */}
-	</header>
+		<Header />
+
 	<main>
 		<section className="contenedor sobre-nosotros">
 			<h2 className="titulo">Nuestro Producto</h2>
@@ -140,6 +124,7 @@ function App() {
 			</div>
 		</section>
 	</main>
+
 	<footer>
 		<div className="contenedor-footer">
 			<div className="content-foo">

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 *{
 	margin: 0;
 	padding: 0; 
@@ -5,7 +7,7 @@
 }
 
 body{
-	font-family: "open sans";
+	font-family: 'Poppins', sans-serif;
 }
 
 .contenedor{
@@ -30,9 +32,9 @@ header{
 	height: 600px;
 	background: #F3904F;  
 	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, hsla(10, 95%, 50%, 0.459), hsla(45, 45%, 52%, 0.664)), url(./assets/slide2b.png); 
+	/* background: -webkit-linear-gradient(to right, hsla(10, 95%, 50%, 0.459), hsla(45, 45%, 52%, 0.664)), url(./assets/slide2b.png);	  */
 	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, hsla(10, 95%, 50%, 0.459), hsla(45, 45%, 52%, 0.664)), url(./assets/slide2b.png); 
+	background: url(./assets/img2.jpg); 
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-size: cover;
 	background-attachment: fixed;
